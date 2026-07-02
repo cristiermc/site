@@ -48,12 +48,69 @@
             </p>
         </article>
     </section>
+
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Habilidade</th>
+            <th>Nível</th>
+            <th>Descrição</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Avançado</td>
+            <td>Conhecimento avançado em HTML para estruturação de páginas web.</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Intermediário</td>
+            <td>Capacidade de criar designs responsivos e modernos com CSS.</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Básico</td>
+            <td>Conhecimento básico em JavaScript para desenvolvimento web.</td>
+          </tr>
+        </tbody>
+    </section>
     <footer>
         <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
         <section id="contato">
             <h2>Contato</h2>
 
             <p>Tem um projeto em mente? Entre em contato comigo!</p>
+
+            <form action="">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone"><br>
+
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select>
+                <br>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" cols="30" rows="5"></textarea>
+                <br>
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Desejo receber novidades por email</label><br>
+
+                <button type="submit">Enviar</button>
+
+            </form>
 
             <address>
                 <p>Rua Exemplo, 123</p>
