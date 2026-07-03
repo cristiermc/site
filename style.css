@@ -2,14 +2,16 @@
   background-color: gray;
   font-family: Arial, Helvetica, sans-serif;
   padding: 10px;
+  
+ 
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
+  flex-direction: row;
+ 
 }
 
 .item {
   height: 50px;
-  weight: 50px;
+  width: 50px;
   border: 1px solid black;
   border-radius: 5px;
   
@@ -17,16 +19,21 @@
 
 #div1 {
   background-color: red;
+  flex-grow: 1;
 }
 #div2 {
   background-color: blue;
+  flex-grow: 2;
 }
 #div3 {
   background-color: green;
+  flex-grow: 5;
 }
 #div4 {
   background-color: yellow;
+  flex-grow: 1;
 }
 #div5 {
   background-color: purple;
+  flex-grow: 1;
 }
