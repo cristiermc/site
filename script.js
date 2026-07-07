@@ -1,9 +1,14 @@
+function verificarAprovacao() {
+    let nota = document.getElementById("nota").value;
+    //let resultado = document.getElementById("resultado");
 
-var teste1 = 5;
-function varTeste1() {
-    let teste1 = 10;
-    console.log(teste1);
+    if (nota >= 7) {
+        document.getElementById("resultado").innerHTML = "Aprovado!";
+        document.getElementById("resultado").style.color = "green";
+        alert("Parabéns! Você foi aprovado.");
+    } else {
+        document.getElementById("resultado").innerHTML = "Reprovado.";
+        document.getElementById("resultado").style.color = "red";
+        alert("Infelizmente, você foi reprovado.");
+    }
 }
-
-varTeste1();
-console.log(teste1);
