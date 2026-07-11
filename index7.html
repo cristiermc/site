@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Funções e Eventos</title>
+    <script src="script7.js"></script>
+    <style>
+        label, button {
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Saudação personalizada</h1>
+    <label for="nome">Digite seu nome:</label><input type="text" id="nome"/>
+    <label for="hora">Selecione a Hora</label>
+    <select id="hora">
+        <option value="">Selecione</option>
+        <option value="8">Manhã(8Hrs)</option>
+        <option value="14">Tarde(14Hrs)</option>
+        <option value="20">Noite(20Hrs)</option>
+    </select>
+    <button onclick="mostrarSaudacao()">Mostrar Saudação</button>
+    <p id="mensagem"></p>
+</body>
+</html>
