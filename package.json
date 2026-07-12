@@ -1,0 +1,23 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/cristiermc/site#readme",
+  "bugs": {
+    "url": "https://github.com/cristiermc/site/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristiermc/site.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "olamundo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}
