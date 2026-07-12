@@ -52,8 +52,9 @@ class Carro extends Veiculo{
 //     }
 // }
  const meuCarro = new Veiculo("Ford", "ka", "2000", "sedan", 4);
- const minhaMoto = new Moto("");
+ const minhaMoto = new Veiculo("Yamaha", "k2", "2008");
  
  meuCarro.mostrarDadosDoVeiculo();
+ minhaMoto.mostrarDadosDoVeiculo();
 //  meuCarro.mostrarMarca();
 //  meuCarro.acelerar();
