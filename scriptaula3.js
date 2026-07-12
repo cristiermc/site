@@ -23,4 +23,14 @@ buscaDadosServidor().then((mensagem) => {
     console.error(erro);
 });
 
+const minhaFuncaoAssincrona = async () => {
+    try{
+        const resultado = await buscaDadosServidor();
+    } catch(erro){
+        console.error(erro);
+    }
+}
+
+minhaFuncaoAssincrona();
+
 console.log("Fim da execução");
